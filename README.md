@@ -10,6 +10,11 @@ SSH into minikube:
 multipass shell minikube
 ```
 
+Add auto complete:
+```bash
+echo "source <(kubectl completion bash)" >> ~/.bashrc
+```
+
 get inside minikube container:
 ```bash
 docker exec -it minikube bash
