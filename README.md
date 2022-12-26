@@ -10,9 +10,9 @@ SSH into minikube:
 multipass shell minikube
 ```
 
-Add auto complete:
+Update `~/.bashrc` file to get auto complete:
 ```bash
-echo "source <(kubectl completion bash)" >> ~/.bashrc
+source <(kubectl completion bash)
 alias k=kubectl
 complete -o default -F __start_kubectl k
 ```
