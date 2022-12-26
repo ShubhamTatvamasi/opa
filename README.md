@@ -9,3 +9,8 @@ SSH into minikube:
 ```bash
 multipass shell minikube
 ```
+
+get inside minikube container:
+```bash
+docker exec -it minikube bash
+```
