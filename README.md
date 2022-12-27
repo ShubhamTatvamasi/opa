@@ -24,6 +24,11 @@ get inside minikube container:
 docker exec -it minikube bash
 ```
 
+Delete minikube when you are done:
+```bash
+multipass delete --purge minikube
+```
+
 ---
 
 ### Gatekeeper Setup
