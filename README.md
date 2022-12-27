@@ -45,4 +45,7 @@ Check CRDs:
 kubectl get crd
 ```
 
-
+Create Constraint:
+```bash
+kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper/master/demo/basic/constraints/all_ns_must_have_gatekeeper.yaml
+```
