@@ -1,5 +1,7 @@
 # opa
 
+### Cluster Setup
+
 Launch minikube:
 ```bash
 multipass launch minikube --name minikube --cpus 4
@@ -21,3 +23,18 @@ get inside minikube container:
 ```bash
 docker exec -it minikube bash
 ```
+
+---
+
+### Gatekeeper Setup
+
+https://open-policy-agent.github.io/gatekeeper/website/docs/install
+
+Deploy gatekeeper:
+```bash
+kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper/master/deploy/gatekeeper.yaml
+```
+
+
+
+
