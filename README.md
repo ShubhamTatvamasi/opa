@@ -39,3 +39,10 @@ Deploy ConstraintTemplate:
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper/master/demo/basic/templates/k8srequiredlabels_template.yaml
 ```
+
+Check CRDs:
+```bash
+kubectl get crd
+```
+
+
