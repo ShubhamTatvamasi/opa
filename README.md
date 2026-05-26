@@ -12,7 +12,8 @@ Install OPA Gatekeeper:
 helm upgrade -i gatekeeper gatekeeper/gatekeeper \
   --version 3.22.2 \
   --namespace gatekeeper-system \
-  --create-namespace
+  --create-namespace \
+  --set replicas=1
 ```
 
  
